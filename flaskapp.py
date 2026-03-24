@@ -138,7 +138,7 @@ def time_form():
 
 @app.route("/timequerytextbox", methods=['POST'])
 def time_form_post():
-    time = request.form['time']
+    time = request.form['text']
     return viewtime(time)
 
 
